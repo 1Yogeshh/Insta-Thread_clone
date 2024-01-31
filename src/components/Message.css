@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.message-page{
+    display: flex;
+    width: 100%;
+}
+.m-logo{
+    margin-bottom: 30px;
+}
+
+.message-navbar{
+    height: 800px;
+    width: 5%;
+    position:fixed;
+    border: 1px solid #7a7777;
+    background-color: white;
+}
+.message-navbar img{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+.m-logo img{
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.message-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.m-buttons1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-style: none;
+    margin: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.m-buttons1:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    
+}
+.m-buttons1 img{
+    height: 24px;
+    border-radius: 5px;
+}
+
+.m-buttons100{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-style: none;
+    margin: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.m-buttons100:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    
+}
+.m-buttons100 img{
+    height: 27px;
+    border-radius: 15px;
+}
+
+
+.m-navbar-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+
+}
+.m-buttons2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-style: none;
+    margin: 5px 10px 5px 7px;
+    font-size: 10px;
+
+}
+.m-buttons2 img{
+    height: 22px;
+}
+
+.m-buttons2 :hover{
+    
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.message-section{
+    width: 30%;
+    margin-left: 80px;
+}
+.message-user{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.message-user p{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.message-user select{
+    height: 15px;
+    width: 17px;
+    border: none;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+.message-user img{
+    height: 28px;
+    margin-left: 190px;
+}
+.message-nav{
+    display: flex;
+    gap: 240px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.mnav1 p{
+    color: black;
+    font-size: 16px;
+    font-weight: 650;
+
+}
+.mnav2 p{
+    color: #828282;
+    
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.message-first{
+    display: flex;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.sec-01 img{
+    height: 55px;
+    border-radius: 30px;
+}
+.sec-02 h1{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 380;
+    
+}
+.sec-02 p{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #515050;
+}
+.messgare-third-section{
+    margin-top: 280px;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.messgare-third-section img{
+    height: 100px;
+}
+.messgare-third-section h1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.messgare-third-section p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #828282;
+}
+.messgare-third-section button{
+    padding: 8px 35px ;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(36, 186, 246);
+    color: white;
+    border: none;
+}
+.messgare-third-section button:hover{
+    cursor: pointer;
+}
+
+.modal-wrapper1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    
+
+}
+.search-page{
+    
+    position: absolute;
+    flex-direction: column;
+    width: 480px;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #b4b2b2;
+   
+    border-radius: 10px;
+}
+
+.search{
+    margin-left: 90px;
+}
+.search-heading{
+    font-size: 12px;
+    margin-top: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-input input{
+    width: 355px;
+    border-radius: 5px;
+    height: 33px;
+    border: 2px solid #b4b2b2;
+    padding: 2px 10px;
+    background-color: #b4b2b2;
+    font-size: 15px;
+    color: white;
+}
+.search-recent{
+    margin-top: 15px;
+
+}
+.search-recent p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.search-norecent{
+    margin-top: 290px;
+    
+    margin-left: 120px;
+}
+.search-norecent p{
+    font-size: 15px;
+}

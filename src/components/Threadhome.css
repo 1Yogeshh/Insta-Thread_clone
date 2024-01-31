@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.thread-homepage{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+    margin-top: 0px;
+    gap: 20px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+.thread-navbar{
+    gap: 20px;
+    width: 400px;
+    position: sticky;
+    
+}
+
+.thread-logo{
+    margin-left: 180px;
+    margin-top: 20px;
+    position: sticky;
+    top: 37px;
+}
+.thread-logo img{
+    height: 38px;
+    margin-top: 0px;
+}
+
+
+.thread-navbar-buttons{
+    
+    margin-left: 50px;
+    width: 600px;
+    background-color: rgb(15, 15, 15);
+    position: sticky;
+    top: 0px;
+}
+.thread-navbar-buttons ul{
+    display: flex;
+}
+.thread-navbar-buttons ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+}
+.item1{
+    margin-left: 40px;
+    
+}
+
+.item1 button{
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    transition: all 0.3s;
+    margin-left: 10px;
+    
+}
+.item1 button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.item1 button img{
+    height: 32px;
+}
+.item2{
+    margin-left: 40px;
+    margin-top:0px ;
+}
+.item2 button{
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    transition: all 0.3s;
+}
+.item2 button:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.item2 button img{
+    height: 35px;
+}
+
+
+.thread-navbar-more button img{
+    height: 20px;
+}
+
+.thread-hero{
+    top: 0px;
+}
+
+.thread-hero-section{
+    margin-left: 0px;
+    gap: 100px;
+    margin-top: 0px;
+    
+}
+.thread-hero-section-first{
+    margin-top: 600px;
+    position: sticky;
+    top: 650px;
+   
+   
+}
+.thread-hero-section-first button{
+    color: white;
+    padding: 15px 35px;
+    font-size: 15px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 35px;
+    border: 1px solid rgb(31, 30, 30);
+    margin-left: 170px;
+    position: sticky;
+    transition: all 0.3s;
+}
+.thread-hero-section-first button:hover{
+    scale: 1.1;
+    cursor: pointer;
+    
+}
+
+.thread-hero-section{
+
+}
+.thread-hero-section hr{
+    margin-left: 430px;
+    
+}
+.hero-section-thread{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.hero-section-thread-image{
+
+}
+.hero-section-thread-image img{
+    height: 35px;
+    border-radius: 20px;
+}
+.hero-section-thread-button1 button{
+    background: none;
+    border: none;
+    color: #959595;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.hero-section-thread-button2 button{
+    border: none;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #959595;
+    margin-left: 350px;
+}
+
+.thread-hero-section-a{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.thread-hero-id{
+    display: flex;
+}
+.thread-hero-id-image img{
+    height: 40px;
+    border-radius: 20px;
+   
+}
+.thread-hero-id-name{
+    text-align: left;
+}
+.thread-hero-id-name p{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.thread-hero-id-name span{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+.thread-hero-id-more{
+    display: flex;
+    margin-left: 370px;
+}
+.thread-hero-id-more p{
+    color: #959595;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.thread-hero-id-more button{
+    background: none;
+    border: none;
+}
+.thread-hero-id-more button:hover{
+    cursor: pointer;
+}
+.thread-hero-id-more button img{
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.thread-hero-section-a-image{
+    margin-top: 10px;
+
+}
+.thread-hero-section-a-image img{
+    margin-right: 10px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.thread-lcs{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+.thread-like{
+
+}
+.thread-like button{
+    border: none;
+    background-color: rgb(22, 22, 22);
+
+}
+.thread-like button:hover{
+    cursor: pointer;
+    background-color: #959595;
+    border-radius: 5px;
+}
+.thread-like button img{
+    height: 30px;
+}
+.thread-comment{
+
+}
+.thread-comment button{
+    border: none;
+    background-color: rgb(22, 22, 22);
+}
+.thread-comment button:hover{
+    cursor: pointer;
+    background-color: #959595;
+    border-radius: 5px;
+}
+.thread-comment button img{
+    height: 30px;
+}
+.thread-share{
+
+}
+.thread-share button{
+    border: none;
+    background-color: rgb(22, 22, 22);
+}
+.thread-share button:hover{
+    cursor: pointer;
+    background-color: #959595;
+    border-radius: 5px;
+}
+.thread-share button img{
+    height: 30px;
+}
+
+.thread-footer-activity{
+    margin-top: 10px;
+}
+.thread-footer-activity p{
+    color: #959595;
+    margin-right: 310px;
+    margin-bottom: 20px;
+}
+
+.thread-home-morebutton{
+    
+    margin-left: 250px;
+
+}
+.thread-home-morebutton button{
+    background: none;
+    border: none;
+    position: sticky;
+    top: 40px;
+}
+.thread-home-morebutton button:hover{
+    cursor: pointer;
+}
+.thread-home-morebutton button img{
+    height: 20px;
+}
+.line{
+    height: 0.07px;
+    width: 580px;
+    background-color: #959595;
+    margin-left: 60px;
+    margin-top: 20px;
+}

@@ -1,0 +1,178 @@
+.main-container1{
+    margin: auto;
+}
+
+.container1{
+    height: 580px;    
+    border-color: rgb(193, 193, 193);
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 570px;
+    margin-right: 570px;
+    
+    border: 1px solid #DBDBDB;
+}
+
+.header1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.header1 img{
+    height: 60px;
+}
+.t1{
+    color: #7a7777;align-items: center;
+    text-align: center;
+}
+.t1 p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn22{
+    margin-top: 7px;
+    
+    align-items: center;
+    text-align: center;
+}
+.bn{
+    background-color: rgb(1, 180, 251);
+    border-style: none;
+    padding: 10px 70px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+.bn:hover{
+    background-color: rgb(36, 186, 246);
+}
+
+.or2{
+    color:#7a7777 ;
+    font-size: 13px;
+}
+
+.inputs1{
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.input1{
+    
+}
+.input1 input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #DBDBDB;
+    
+}
+.q{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+.q p{
+    font-size: 13px;
+    color: #7a7777;
+
+}
+.q p a{
+    text-decoration: none;
+    color: #3b5998;
+}
+
+.w{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+.w p{
+    font-size: 13px;
+    color: #7a7777;
+}
+.w p a{
+    text-decoration: none;
+    color: #3b5998;
+
+}
+
+.login1{
+    margin-top: 20px;
+}
+.btn1{
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: rgb(36, 186, 246);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-style: none;
+}
+
+
+.container21{
+    border-color: rgb(193, 193, 193);
+    margin-top: 10px;
+    margin-left: 570px;
+    margin-right: 570px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    height: 40px;
+
+}
+.signup1 p{
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.signup1 p a{
+    text-decoration: none; 
+    font-size: 15px;
+    color: rgb(36, 186, 246);
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+    .container1{
+        height: 580px;    
+        width: 400px;
+        border-color: rgb(193, 193, 193);
+        margin-top: 60px;
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 0px;
+        
+        border: 1px solid #DBDBDB;
+
+    }
+    .container21{
+        border-color: rgb(193, 193, 193);
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 0px;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #DBDBDB;
+        height: 40px;
+        width: 400px;
+    
+    }
+    .signup1 p{
+        color: rgb(54, 54, 54);
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .signup1 p a{
+        text-decoration: none; 
+        font-size: 15px;
+        color: rgb(36, 186, 246);
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.thread-notification-different-buttons{
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
+.thread-all-button{
+    text-align: center;
+    justify-content: center;
+}
+.thread-all-button-1 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+.thread-all-button-1 button:hover{
+    scale: 1.07;
+    cursor: pointer;
+}
+
+.thread-all-button-2 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.thread-all-button-2 button:hover{
+    scale: 1.07;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+
+.thread-all-button-3 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.thread-all-button-3 button:hover{
+    scale: 1.07;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+
+.thread-all-button-4 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.thread-all-button-4 button:hover{
+    scale: 1.07;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+
+.thread-all-button-5 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.thread-all-button-5 button:hover{
+    scale: 1.07;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+
+.thread-all-button-6 button{
+    padding: 10px 20px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.thread-all-button-6 button:hover{
+    scale: 1.07;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid #959595 ;
+}
+
+.thread-check-follower{
+    margin-top: 20px;
+}
+.thread-follower-id{
+    display: flex;
+    margin-left: 30px;
+}
+.thread-follower-pic{
+
+}
+.thread-follower-pic img{
+    height: 40px;
+    border-radius: 20px;
+}
+.thread-follower-username{
+    margin-left: 10px;
+}
+.thread-follower-username span p{
+    color: white;
+    font-size: 17px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.thread-follower-username h1{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: #959595;
+    margin-top: 3px;
+}
+
+.follow-back-button{
+    margin-left: 250px;
+    margin-top: 3px;
+}
+.follow-back-button button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(15, 15, 15);
+    border: 0.5px solid #959595;
+    color: white;
+}
+
+.thread-line{
+    width: 460px;
+    height: 0.5px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: #959595;
+}
+
+.no-activity-yet{
+    margin-top: 300px;
+    margin-left: 230px;
+}
+.no-activity-yet p{
+    color: #959595;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

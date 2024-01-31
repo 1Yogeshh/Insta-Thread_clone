@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.thread-searchpage{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+    margin-top: 0px;
+    gap: 20px;
+    box-sizing: border-box;
+    display: flex;
+    
+    
+}
+
+.threadsearch-navbar{
+    gap: 20px;
+    width: 400px;
+
+}
+.threadsearch-logo{
+    
+    margin-left: 180px;
+    margin-top: 35px;
+
+
+}
+.threadsearch-logo img{
+    height: 38px;
+    margin-top: 0px;
+}
+.threadsearch-hero{
+    margin-left: 50px;
+    
+}
+.threadsearch-navbar-buttons{
+    margin-left: 0px;
+    width: 600px;
+    background-color: rgb(15, 15, 15);
+    
+
+}
+.threadsearch-navbar-buttons ul{
+    display: flex;
+}
+.threadsearch-navbar-buttons ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+}
+.item1search{
+    margin-left: 40px;
+    
+}
+
+.item1search button{
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    transition: all 0.3s;
+    margin-left: 10px;
+    
+}
+.item1search button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.item1search button img{
+    height: 32px;
+}
+.item2search{
+    margin-left: 40px;
+    margin-top:0px ;
+}
+.item2search button{
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    transition: all 0.3s;
+}
+.item2search button:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.item2search button img{
+    height: 35px;
+}
+
+.threadsearch-home-morebutton{
+
+}
+
+.thread-searchbar{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.thread-searchbar input{
+    width: 550px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(3, 3, 3);
+    border: none;
+    padding: 15px;
+    color: white;
+    border:1px solid #959595 ;
+    font-size: 20px;
+}
+
+.thread-search-id{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.thread-search-id p{
+    color: #959595;
+}
+
+
+.threadsearch-home-morebutton{
+    
+    margin-left: 250px;
+    margin-top: 40px;
+
+}
+.threadsearch-home-morebutton button{
+    background: none;
+    border: none;
+    
+}
+.threadsearch-home-morebutton button:hover{
+    cursor: pointer;
+}
+.threadsearch-home-morebutton button img{
+    height: 20px;
+}
+
+.search-first-id{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.search-first-id button{
+    border: none;
+    background: none;
+    display: flex;
+}
+.search-first-id button:hover{
+    cursor: pointer;
+}
+.void-pic{
+
+}
+.void-pic img{
+    height: 50px;
+    border-radius: 100px;
+}
+.void-username{
+
+}
+.void-username-1st{
+
+}
+.void-username-1st p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.void-username-2nd{
+    margin-top: 5px;
+
+}
+.void-username-2nd p{
+    color: #959595;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.void-username-3rd{
+    margin-top: 15px;
+
+}
+.void-username-3rd p{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.void-follow-button{
+    margin-left: 310px;
+}
+.void-follow-button button{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border: 0.5px solid #959595;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+.void-follow-button button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.search-line{
+    margin-left: 30px;
+    height: 0.5px;
+    width: 540px;
+    margin-top: 15px;
+    background-color: #959595;
+}

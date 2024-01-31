@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.thread-second{
+    background-color:#0f0e0e;
+    height: 800px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.thread-navbar11{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.thread-navbar11 button{
+    color: #959595;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background: none;
+}
+.thread-navbar11 button:hover{
+    cursor: pointer;
+}
+
+.thread-hero-section-1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.insta-image img{
+    height: 37px;
+}
+
+.threadsecond-para{
+    margin-top: 150px;
+}
+.threadsecond-para p{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.threadsecond-button{
+    margin-top: 30px;
+
+}
+.threadsecond-button button{
+    height: 90px;
+   width: 350px;
+    display: flex;
+    background-color: #0f0e0e;
+    border: none;
+    border: 1px solid #959595 ;
+    border-radius: 10px;
+}
+.threadsecond-button button:hover{
+    cursor: pointer;
+}
+.threadsecond-button button img{
+    height: 55px;
+    border-radius: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.threadsecond-button button span p{
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.threadsecond-button button span p h1{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #959595;
+}
+.threadsecond-button button span{
+    color: #959595;
+    
+}
+
+.threadsecond-footer{
+    margin-top: 60px;
+}
+.threadsecond-footer a{
+    text-decoration: none;
+    color: #959595;;
+    font-size: 15px;
+}
+.threadsecond-footer a:hover{
+    cursor: pointer;
+}
